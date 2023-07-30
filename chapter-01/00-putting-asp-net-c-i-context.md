@@ -6,4 +6,4 @@
 ### Understanding Razor Pages
 ### Understanding Blazor
 
-[<BACK](00-Content) - [NEXT>](00-putting-asp-net-c-i-context.md)
+[<BACK](00-Content.md) - [NEXT>](00-putting-asp-net-c-i-context.md)
