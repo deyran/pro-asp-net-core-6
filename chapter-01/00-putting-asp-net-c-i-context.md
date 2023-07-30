@@ -5,3 +5,5 @@
 ### Understanding the MVC Framework
 ### Understanding Razor Pages
 ### Understanding Blazor
+
+[<BACK](00-Content) - [NEXT>](00-putting-asp-net-c-i-context.md)
