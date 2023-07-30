@@ -1,6 +1,6 @@
 # Chapter 1: Putting Asp.Net Core in Context
 
-ASP.NET Core is Microsoft’s web development platform. The original ASP.NET was introduced in 2002, and it has been through several reinventions and reincarnations to become ASP.NET Core 6, which is the topic of this book.
+Asp.Net Core is Microsoft's web development platform. The original Asp.Net was released in 2002 and went through several transformations to become ASP.Net Core 6, which is what this book is about
 
 <!--
 # Chapter 1: Putting Asp.Net Core in Context
