@@ -22,12 +22,6 @@ The MVC Framework was introduced at the beginning of **ASP.NET**, long before **
 ## Understanding the application frameworks
 ### Understanding the MVC Framework
 
-
-is a soluction that help solve common problems in software development
-
-Stands for.
-indistinct.
-led to.
 -------------------
 
 awkward feature.
