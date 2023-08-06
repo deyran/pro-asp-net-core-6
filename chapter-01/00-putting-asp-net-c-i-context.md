@@ -13,6 +13,8 @@ Getting start with Asp.Net Core can be confusing, there are many different frame
 
 ### Understanding the MVC Framework
 
+The MVC Framework was introduced at the beginning of **ASP.NET**, long before **.NET Core** and **.NET 6** were introduced. The original ASP.NET started with the *Web Page* development model, which consisted of writing desktop applications that resulted in web projects. The MVC Framework was introduced along with Web Pages, but with one difference, the MVC Framework explicitly uses HTTP and HTML.
+
 <!--
 # Chapter 1: Putting Asp.Net Core in Context
 ## Understanding the application frameworks
