@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("FirstProject")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+de91841a61d6845b9efd567fd13270718630c561")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7b1eb3a135e85aace6dd8ebe92e14184e28ebdf0")]
 [assembly: System.Reflection.AssemblyProductAttribute("FirstProject")]
 [assembly: System.Reflection.AssemblyTitleAttribute("FirstProject")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

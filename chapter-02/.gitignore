@@ -1,0 +1,16 @@
+# Specific to Razor projects
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+.vscode/
+!.vscode/extensions.json
+!.vscode/settings.json
+*.userprefs
+
+# Build results
+[Oo]bj/
+[Bb]in/
+
+# Visual Studio 2015 cache/options directory
+.vs/
