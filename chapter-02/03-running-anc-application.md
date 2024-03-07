@@ -37,6 +37,9 @@ When the project is created, a file named **launchSettings.json** is created in 
 ```
 
 ### Understanding Endpoints
+
+In an ASP.NET Core applications, incoming requests are handled by **endpoints** also known **actions**. Each action is defined in a class called controller that is derived from the *Microsoft.AspNetCore.Mvc.Controller* class. The class controller allows you to handle HTTP requests by invoking specific **actions methods**.
+
 ### Understanding Routes
 ### Understanding HTML Rendering
 ### Putting the pieces together
