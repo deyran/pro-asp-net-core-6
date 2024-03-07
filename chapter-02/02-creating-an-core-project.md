@@ -5,7 +5,7 @@
 ### Opening the Project Using Visual Studio
 
 1. Create a new project
-2. ASP.NET Core Wep App (Razor Pages)
+2. ASP.NET Core Web App (Model-View-Controller)
 3. Solution/Project name -> FirstProject
 4. Create
 
