@@ -1,4 +1,4 @@
-using FirstProject.Models;
+/*using FirstProject.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
@@ -27,6 +27,18 @@ namespace FirstProject.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+    }
+}*/
+
+using Microsoft.AspNetCore.Mvc;
+namespace FirstProject.Controllers
+{
+    public class HomeController : Controller
+    {
+        public string Index()
+        {
+            return "Hello World";
         }
     }
 }
