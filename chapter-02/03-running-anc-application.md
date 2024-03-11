@@ -42,7 +42,9 @@ In an ASP.NET Core applications, incoming requests are handled by **endpoints** 
 
 Controller classes follow a naming convention where the class name is followed by the word "Controller". For example, HomeController.cs, the controller name is Home.
 
-The code below shows us a simple example of a controller class:
+The code below (Listing 2-6) shows us a simple example of a controller class:
+
+Listing 2-6. Changing the HomeController.cs File in the Controllers Folder
 
 ```
 using Microsoft.AspNetCore.Mvc;
@@ -72,11 +74,18 @@ When the ASP.Net Core project is created, a **default rule** is automatically co
 
 Appending */Home* or */Home/Index* to the URL will display the same **Hello World** result from the application
 
+### Understanding HTML Rendering
+
+#### Creating and Rendering a View
+
 <!--
 # Chapter 2: Getting Started
 ## Running the ASP.NET Core Application
-### Understanding Routes
+### Putting the pieces together
+#### Creating and Rendering a View
 -->
 
-### Understanding HTML Rendering
+
+#### Adding dynamic output
+
 ### Putting the pieces together
