@@ -44,7 +44,7 @@ Controller classes follow a naming convention where the class name is followed b
 
 The code below (Listing 2-6) shows us a simple example of a controller class:
 
-Listing 2-6. Changing the HomeController.cs File in the Controllers Folder
+**Listing 2-6**. Changing the HomeController.cs File in the Controllers Folder
 
 ```
 using Microsoft.AspNetCore.Mvc;
