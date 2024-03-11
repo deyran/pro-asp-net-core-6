@@ -69,11 +69,11 @@ When the ASP.Net Core project is created, a default rule is automatically config
 /Home
 /Home/Index
 ```
-/*
+<!--
 # Chapter 2: Getting Started
 ## Running the ASP.NET Core Application
 ### Understanding Routes
-*/
+-->
 
 ### Understanding HTML Rendering
 ### Putting the pieces together
