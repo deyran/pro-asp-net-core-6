@@ -78,6 +78,22 @@ Appending */Home* or */Home/Index* to the URL will display the same **Hello Worl
 
 #### Creating and Rendering a View
 
+Change the *Index.cshtml* file, seen in the **Listing 2-6** to match the **Listing 2-7**
+
+```
+using Microsoft.AspNetCore.Mvc;
+namespace FirstProject.Controllers
+{
+    public class HomeController : Controller
+    {
+        public ViewResult Index()
+        {
+            return View("MyView");
+        }
+    }
+}
+```
+
 <!--
 # Chapter 2: Getting Started
 ## Running the ASP.NET Core Application
