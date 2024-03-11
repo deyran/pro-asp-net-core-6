@@ -98,7 +98,7 @@ namespace FirstProject.Controllers
 
 When an action method in ASP.NET returns a ViewResult object, it makes the framework render a view. Developers call the view method and specify the name of the view they want to use (e.g. "MyView"). If you try to run the project, it will fail because the view called "MyView" has not yet been created.
 
-Views in ASP.NET Core are stored in the **Views** folder. They are organized into subfolders based on controllers. For instance, views associated with the **HomeController** are stored in folder callde **Views/Home**
+Views in ASP.NET Core are stored in the **Views** folder. They are organized into subfolders based on controllers. For instance, views associated with the **HomeController** are stored in folder calld **Views/Home**
 <!--
 # Chapter 2: Getting Started
 ## Running the ASP.NET Core Application
