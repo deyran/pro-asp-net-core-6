@@ -80,6 +80,8 @@ Appending */Home* or */Home/Index* to the URL will display the same **Hello Worl
 
 Change the *Index.cshtml* file, seen in the **Listing 2-6** to match the **Listing 2-7**
 
+**Listing 2-7**. Rendering a View in the HomeController.cs File in the Controllers Folder
+
 ```
 using Microsoft.AspNetCore.Mvc;
 namespace FirstProject.Controllers
