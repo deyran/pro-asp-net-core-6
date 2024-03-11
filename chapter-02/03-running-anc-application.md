@@ -62,13 +62,16 @@ namespace FirstProject.Controllers
 
 The **ASP.NET Core routing system** handle incoming HTTP requests by matching them to specific controller actions. The routing system uses rules defined in the **route** to determine how a request should be processed.
 
-When the ASP.Net Core project is created, a default rule is automatically configured. The route below show us an example of default rule:
+When the ASP.Net Core project is created, a **default rule** is automatically configured. The route below show us an example of default rule:
 
 ```
 /
 /Home
 /Home/Index
 ```
+
+Appending */Home* or */Home/Index* to the URL will display the same **Hello World** result from the application
+
 <!--
 # Chapter 2: Getting Started
 ## Running the ASP.NET Core Application
