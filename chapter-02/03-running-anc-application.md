@@ -76,7 +76,7 @@ Appending */Home* or */Home/Index* to the URL will display the same **Hello Worl
 
 ### Understanding HTML Rendering
 
-#### Creating and Rendering a View
+#### Creating and Rendering a View - 27
 
 Change the *Index.cshtml* file, seen in the **Listing 2-6** to match the **Listing 2-7**
 
