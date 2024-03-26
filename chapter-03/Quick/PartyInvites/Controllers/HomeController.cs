@@ -9,6 +9,7 @@ namespace PartyInvites.Controllers
             return View();
         }
 
+        [HttpGet]
         public ViewResult RsvpForm()
         {
             return View();
@@ -19,6 +20,11 @@ namespace PartyInvites.Controllers
         {
             Repository.AddResponse(guestResponse);
             return View("Thanks", guestResponse);
+        }
+
+        public ViewResult ListResponses()
+        {
+            return View(Repository.Responses.Where(r => r.WillAttend == true));
         }
     }
 }
