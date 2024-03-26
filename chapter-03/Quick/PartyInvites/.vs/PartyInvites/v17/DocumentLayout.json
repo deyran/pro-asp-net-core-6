@@ -3,16 +3,8 @@
   "WorkspaceRootPath": "C:\\git-projects\\pro-asp-net-core-6\\chapter-03\\Quick\\PartyInvites\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E1D660B9-A9B1-431B-BEE9-5ED12A8684E8}|PartyInvites.csproj|c:\\git-projects\\pro-asp-net-core-6\\chapter-03\\quick\\partyinvites\\models\\guestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E1D660B9-A9B1-431B-BEE9-5ED12A8684E8}|PartyInvites.csproj|solutionrelative:models\\guestresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1D660B9-A9B1-431B-BEE9-5ED12A8684E8}|PartyInvites.csproj|c:\\git-projects\\pro-asp-net-core-6\\chapter-03\\quick\\partyinvites\\views\\home\\listresponses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E1D660B9-A9B1-431B-BEE9-5ED12A8684E8}|PartyInvites.csproj|solutionrelative:views\\home\\listresponses.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E1D660B9-A9B1-431B-BEE9-5ED12A8684E8}|PartyInvites.csproj|c:\\git-projects\\pro-asp-net-core-6\\chapter-03\\quick\\partyinvites\\views\\home\\thanks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{E1D660B9-A9B1-431B-BEE9-5ED12A8684E8}|PartyInvites.csproj|solutionrelative:views\\home\\thanks.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{E1D660B9-A9B1-431B-BEE9-5ED12A8684E8}|PartyInvites.csproj|c:\\git-projects\\pro-asp-net-core-6\\chapter-03\\quick\\partyinvites\\views\\home\\rsvpform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E1D660B9-A9B1-431B-BEE9-5ED12A8684E8}|PartyInvites.csproj|solutionrelative:views\\home\\rsvpform.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,40 +23,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "GuestResponse.cs",
-              "DocumentMoniker": "C:\\git-projects\\pro-asp-net-core-6\\chapter-03\\Quick\\PartyInvites\\Models\\GuestResponse.cs",
-              "RelativeDocumentMoniker": "Models\\GuestResponse.cs",
-              "ToolTip": "C:\\git-projects\\pro-asp-net-core-6\\chapter-03\\Quick\\PartyInvites\\Models\\GuestResponse.cs",
-              "RelativeToolTip": "Models\\GuestResponse.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAtAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-26T20:36:50.446Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ListResponses.cshtml",
-              "DocumentMoniker": "C:\\git-projects\\pro-asp-net-core-6\\chapter-03\\Quick\\PartyInvites\\Views\\Home\\ListResponses.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\ListResponses.cshtml",
-              "ToolTip": "C:\\git-projects\\pro-asp-net-core-6\\chapter-03\\Quick\\PartyInvites\\Views\\Home\\ListResponses.cshtml",
-              "RelativeToolTip": "Views\\Home\\ListResponses.cshtml",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Title": "RsvpForm.cshtml",
+              "DocumentMoniker": "C:\\git-projects\\pro-asp-net-core-6\\chapter-03\\Quick\\PartyInvites\\Views\\Home\\RsvpForm.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\RsvpForm.cshtml",
+              "ToolTip": "C:\\git-projects\\pro-asp-net-core-6\\chapter-03\\Quick\\PartyInvites\\Views\\Home\\RsvpForm.cshtml",
+              "RelativeToolTip": "Views\\Home\\RsvpForm.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-26T20:32:26.237Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Thanks.cshtml",
-              "DocumentMoniker": "C:\\git-projects\\pro-asp-net-core-6\\chapter-03\\Quick\\PartyInvites\\Views\\Home\\Thanks.cshtml",
-              "RelativeDocumentMoniker": "Views\\Home\\Thanks.cshtml",
-              "ToolTip": "C:\\git-projects\\pro-asp-net-core-6\\chapter-03\\Quick\\PartyInvites\\Views\\Home\\Thanks.cshtml",
-              "RelativeToolTip": "Views\\Home\\Thanks.cshtml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-03-26T20:10:40.575Z",
+              "WhenOpened": "2024-03-26T20:56:48.281Z",
               "EditorCaption": ""
             }
           ]
