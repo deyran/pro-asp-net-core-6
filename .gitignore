@@ -1,0 +1,44 @@
+# .NET Core
+## Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+[Aa][Nn][Yy]/
+[Ll]og/
+[Ll]ogs/
+
+## Visual Studio Code
+.vscode/
+
+## Visual Studio
+.vs/
+[Bb]in/
+[Oo]bj/
+*.suo
+*.user
+*.vspscc
+*.vssscc
+[Tt]est[Rr]esults/
+[Tt]est[Rr]esults[Rr]eport/
+[Tt]est[Rr]esults[Rr]eporter/
+[Tt]est[Rr]esults[Rr]un/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]eport/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]eporter/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]eport/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]eporter/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]eport/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]eporter/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]eport/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]eporter/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]eport/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]eporter/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults[Rr]eport/
+[Tt]est[Rr]esults[Rr]un[Rr]esults[Rr]un[Rr]esults
