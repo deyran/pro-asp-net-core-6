@@ -16,3 +16,17 @@ dotnet sln MySolution add MySolution/MyProject
 1. Start Visual Studio Code.
 2. Select **File > Open Folder**
 3. Navigate to the **MySolution** folder
+
+## Adding Code and Content to Projects
+
+1. In **MyProject** create a folder called **wwwroot**
+2. Inside the **wwwroot** folder create new file called **demo.html**
+   
+## Understanding Item Scaffolding
+
+1. **Item Templates in Visual**  
+
+   1. Templates are useful for creating file
+   2. They simplify the process of creating new files
+
+2. **Scaffolded items** refer to pre-generated code templates that help you quickly create common components of your application. These templates provide a starting point for various features, such as controllers, views, and data access
