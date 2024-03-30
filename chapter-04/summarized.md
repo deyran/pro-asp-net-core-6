@@ -10,3 +10,9 @@ dotnet new web --no-https --output MySolution/MyProject
 dotnet new sln -o MySolution
 dotnet sln MySolution add MySolution/MyProject
 ```
+
+* To open the project in Visual Studio Code, follow these steps:
+
+1. Start Visual Studio Code.
+2. Select **File > Open Folder**
+3. Navigate to the **MySolution** folder
