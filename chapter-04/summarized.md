@@ -29,4 +29,13 @@ dotnet sln MySolution add MySolution/MyProject
    1. Templates are useful for creating file
    2. They simplify the process of creating new files
 
-2. **Scaffolded items** refer to pre-generated code templates that help you quickly create common components of your application. These templates provide a starting point for various features, such as controllers, views, and data access
+2. **Scaffolded items** refer to pre-generated code templates that help you quickly create common components of your application. These templates provide a starting point for various features, such as controllers, views, and data access.
+
+## Building and running projects
+
+1. In the MyProject folder, open the **Program.cs** class file and type to match to the code below:
+
+```
+```
+
+2. 2. AAA
