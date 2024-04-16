@@ -54,5 +54,4 @@ app.Run();
 
 4. Now run the project using the following command: **dotnet run**
 
-## Using the Hot Reload Feature
-
+## Managing Packages 69
