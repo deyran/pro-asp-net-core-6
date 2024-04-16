@@ -36,6 +36,20 @@ dotnet sln MySolution add MySolution/MyProject
 1. In the MyProject folder, open the **Program.cs** class file and type to match to the code below:
 
 ```
+var builder = WebApplication.CreateBuilder(args);
+var app = builder.Build();
+
+app.MapGet("/", () => "Hello World!");
+
+app.UseStaticFiles();
+
+app.Run();
 ```
 
-2. 2. AAA
+* The purpose of the statement **app.UseStaticFiles();** is to enabling static content support for handling HTTP requests with static content located in the wwwroot folder
+
+2. Next step is to **configure the HTTP port** that ASP.NET Core will use to handle incoming requests. This can be done by editing the **launchSettings.json** file
+   
+3. To **build** the example project, open the terminal and run the following command: **dotnet build**
+
+4. Now run the project using the following command: **dotnet run**
