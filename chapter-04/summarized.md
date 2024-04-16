@@ -53,3 +53,6 @@ app.Run();
 3. To **build** the example project, open the terminal and run the following command: **dotnet build**
 
 4. Now run the project using the following command: **dotnet run**
+
+## Using the Hot Reload Feature
+
