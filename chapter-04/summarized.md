@@ -113,3 +113,21 @@ dotNet tool install --global Microsoft.Web.LibraryManager.Cli
 ```
 libman install bootstrap@5.1.3 -d wwwroot/lib/bootstrap
 ```
+
+**Listing 4-19**. Applying Bootstrap Classes in the demo.html file in the wwwroot folder
+
+```
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title></title>
+<link href="/lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+<body>
+<h3 class="bg-primary text-white text-center p-2">New Message</h3>
+</body>
+</html>
+```
+
+## Debugging Projects
