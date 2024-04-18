@@ -63,3 +63,9 @@ app.Run();
 ```
 dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0
 ```
+
+**Listing 4-12**. Listing the Packages in a Project
+
+```
+dotnet list package
+```
