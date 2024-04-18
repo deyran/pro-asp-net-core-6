@@ -54,4 +54,12 @@ app.Run();
 
 4. Now run the project using the following command: **dotnet run**
 
-## Managing Packages 69
+## Managing Packages
+
+### Managing NutGet Packages
+
+**Listing 4-11**. Adding a Package to the Example Project
+
+```
+dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0
+```
