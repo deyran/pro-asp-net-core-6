@@ -94,3 +94,16 @@ dotnet tool install --global dotnet-ef --version 6.0.0
 ```
 dotnet ef --help
 ```
+
+### Managing Client-Side Packages
+
+1. The **client-side package** contains the client-side content of the web application, such as images, CSS sheets , JavaScript file, and static HTML.
+
+2. **Library Manager**, also known as **LibMan**, is a tool for acquiring client-side libraries in Asp.Net Core projects.
+
+**Listing 4-16**. Installing the LibMan tool package
+
+```
+dotnet tool uninstall --global Microsoft.Web.LibraryManager.Cli
+dotNet tool install --global Microsoft.Web.LibraryManager.Cli --version 2.1.13
+```
