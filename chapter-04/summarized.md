@@ -105,5 +105,11 @@ dotnet ef --help
 
 ```
 dotnet tool uninstall --global Microsoft.Web.LibraryManager.Cli
-dotNet tool install --global Microsoft.Web.LibraryManager.Cli --version 2.1.13
+dotNet tool install --global Microsoft.Web.LibraryManager.Cli
+```
+
+**Listing 4-18**. Installing the Bootstrap Css framework
+
+```
+libman install bootstrap@5.1.3 -d wwwroot/lib/bootstrap
 ```
