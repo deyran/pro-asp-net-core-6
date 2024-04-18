@@ -82,9 +82,15 @@ dotnet remove package Microsoft.EntityFrameworkCore.SqlServer
 
 2. Tool packages are managed using the **dotnet tool** command. Develpers can use this command to install, update or remove tools
 
-Listing 4-14. Installing a tool package
+**Listing 4-14**. Installing a tool package
 
 ```
 dotnet tool uninstall --global dotnet-ef
 dotnet tool install --global dotnet-ef --version 6.0.0
+```
+
+**Listing 4-15**. Running a tool package command
+
+```
+dotnet ef --help
 ```
