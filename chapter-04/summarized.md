@@ -69,3 +69,9 @@ dotnet add package Microsoft.EntityFrameworkCore.SqlServer --version 6.0.0
 ```
 dotnet list package
 ```
+
+**Listing 4-13**. Removing a Package from the example project
+
+```
+dotnet remove package Microsoft.EntityFrameworkCore.SqlServer
+```
