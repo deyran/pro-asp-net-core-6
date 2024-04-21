@@ -1,17 +1,11 @@
 # [Intro to VSCode for C# Developers - From Installation to Debugging](https://youtu.be/r5dtl9Uq9V0?si=5jSZj9L_z0vJyHD2)
 
-## Create a solution and a console project
-
-1. Solution
+## Create the Solution
 
 ```
 dotnet new sln -n "VSCodeIntroSln"
-```
-
-2. Project
-   
-```
 dotnet new console -n "IntroUI"
+dotnet new classlib -n "IntroLibrary"
+dotnet sln VSCodeIntroSln.sln add ./IntroUI/IntroUI.csproj
+dotnet add IntroUI/IntroUI.csproj reference IntroLibrary/IntroLibrary.csproj
 ```
-
-3. AA
