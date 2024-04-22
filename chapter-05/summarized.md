@@ -2,7 +2,7 @@
 
 # Preparing for this chapter
 
-## Creating a preject
+## Creating a project
 
 **Listing 5-1**. Creating the Example Project
 
@@ -48,6 +48,8 @@ app.Run();
 
 ## Creating the application components
 
+### Creating the data model
+
 **Listing 5-3**. The Contents of the Product.cs File in the Models Folder
 
 1. In the terminal
@@ -82,8 +84,35 @@ public class Product
 }
 ```
 
-### Creating the data model
 ### Creating the Controller and View
+
+**Listing 5-4**. The Contents of the *HomeController.cs* File in the *Controllers* Folder
+
+1. Creating the HomeController.cs in the terminal
+
+```
+dotnet new mvccontroller -n HomeController -o Controllers
+```
+
+2. The Homecontroller.cs content
+
+```
+using Microsoft.AspNetCore.Mvc;
+
+namespace MyApp.Namespace
+{
+    public class HomeController : Controller
+    {
+        // GET: HomeController
+        public ActionResult Index()
+        {
+            return View(new string[] {"C#", "Language", "Features"});
+        }
+
+    }
+}
+```
+
 
 ## Selecting the HTTP port
 ## Running the example application
