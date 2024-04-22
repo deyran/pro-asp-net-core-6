@@ -113,6 +113,35 @@ namespace MyApp.Namespace
 }
 ```
 
+**Listing 5-5**. The Contents of the Index.cshtml File in the Views/Home Folder
 
-## Selecting the HTTP port
-## Running the example application
+```
+@model IEnumerable<string>
+
+@{
+
+    Layout = null;
+
+}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Features</title>
+</head>
+
+<body>
+    <ul>
+        @foreach (string s in Model)
+        {
+            <li>@s</li>
+        }
+
+    </ul>
+</body>
+
+</html>
+```
