@@ -25,3 +25,21 @@ dotnet sln LanguageFeatures add LanguageFeatures
 
 * Adds the **LanguageFeatures project** (.csproj file) to the existing solution file **LanguageFeature.sln**
 * Associate the project with the solution, allowing you to build, managem and reference it within the solution
+
+### Enabling the MVC Framework
+
+**Listing 5-2**. Enabling MVC in the Program.cs file in the LanguageFeatures folder
+
+```
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services for controllers and views
+builder.Services.AddControllersWithViews();
+
+var app = builder.Build();
+
+//app.MapGet("/", () => "Hello World!");
+app.MapDefaultControllerRoute();
+
+app.Run();
+```
