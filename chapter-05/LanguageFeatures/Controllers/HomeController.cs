@@ -1,3 +1,4 @@
+using LanguageFeatures;
 using Microsoft.AspNetCore.Mvc;
 
 namespace MyApp.Namespace
@@ -5,9 +6,11 @@ namespace MyApp.Namespace
     public class HomeController : Controller
     {
         // GET: HomeController
-        public ActionResult Index()
+        public ViewResult Index()
         {
-            return View(new string[] {"C#", "Language", "Features"});
+            Product?[] products = Product.GetProducts();
+            
+            return View(new string[] { products[0]?.Name });
         }
 
     }
