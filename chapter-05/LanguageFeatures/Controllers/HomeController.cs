@@ -10,7 +10,7 @@ namespace MyApp.Namespace
         {
             Product?[] products = Product.GetProducts();
             
-            return View(new string[] { products[0]?.Name });
+            return View(new string[] { products[0]!.Name });
         }
 
     }
