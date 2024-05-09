@@ -5,7 +5,7 @@ public class Product
     //! Assigning the Name property with default value, in this case null (string.Empty)
 
     /*TODO */
-    public string Name { get; set; } = string.Empty;
+    public string Name { get; set; }
     public decimal? Price { get; set; }
     public static Product?[] GetProducts()
     {
