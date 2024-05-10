@@ -14,3 +14,4 @@ ASP.NET Core projects templates anable *Null State Analysis* for the purpose of 
 2. To denote a nullable type, a question mark (**?**), is appended to the type
 3. For example, if a variable's type is **string?**, it can be assigned **null** values.
 4. When a variable's type is simply **string**, it means that the variable cannot hold a **null** value
+5. Developers sould check that the denoted nullable type isn't null before attempting to access any of the fields
