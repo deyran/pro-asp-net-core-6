@@ -29,3 +29,5 @@ public string Name { get; set; } = string.Empty;
 
 ...
 ```
+
+## Using nullable types
