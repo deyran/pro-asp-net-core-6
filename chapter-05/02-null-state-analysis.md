@@ -18,4 +18,4 @@ ASP.NET Core projects templates enable *Null State Analysis* for the purpose of 
 
 ## Ensuring fields and properties are assigned values
 
-Taking the *Product* class and its *Name* field as an example, this field is a non-nullable (not annotated with a question mark) string type. A consequence of using non-nullable types like Name is to be assigned a value when a new instance of the enclosing class is created, and that value would be null. And this is a problem because we cannot assign null to a non-nullable property, even indirectly
+Taking the *Product* class and its *Name* field as an example, this field is a non-nullable (not annotated with a question mark) string type. A consequence of using non-nullable types like Name is to be assigned a value when a new instance of the enclosing class is created, and that value would be null. And this is a problem because we cannot assign null to a non-nullable property, even indirectly. To resolve this issue, developers must assign a default value to this property, ensuring that the Name property is always initialized. This solution can be seen in Listing 5-11
