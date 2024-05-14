@@ -1,10 +1,10 @@
 # Understanding Null State Analysis
 
-ASP.NET Core projects templates anable *Null State Analysis* for the purpose of alerting the editor and compiler to attempts to access references that may be unintentionally null, preventing null reference exceptions at runtime.
+ASP.NET Core projects templates enable *Null State Analysis* for the purpose of alerting the editor and compiler to attempts to access references that may be unintentionally null, preventing null reference exceptions at runtime.
 
 ## Nullable and Non-nullable variables
 
-1. C# variable are categorized into two groups: nullabel and non-nullable
+1. C# variables are categorized into two groups: nullabel and non-nullable
 2. Nullable variable can hold a null value, while non-nullable variables cannot
 3. Developers need to be aware of null references when working with nullable variables
 
