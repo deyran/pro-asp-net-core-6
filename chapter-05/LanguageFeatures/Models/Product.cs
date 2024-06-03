@@ -16,6 +16,7 @@ public class Product
             Name = "Lifejacket",
             Price = 48.95M
         };
+        
         return new Product[] { kayak, lifejacket, null };
     }
 }
